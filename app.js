@@ -52,3 +52,8 @@ const gallonsNeeded75mph = tripDistanceMiles / fuelEfficiency75mph;
 const fuelCost55mph = gallonsNeeded55mph * averageFuelCostPerGallon;
 const fuelCost60mph = gallonsNeeded60mph * averageFuelCostPerGallon;
 const fuelCost75mph = gallonsNeeded75mph * averageFuelCostPerGallon;
+
+// Check if the budget is enough for each speed
+const isBudgetEnough55mph = fuelCost55mph <= fuelBudgetDollars;
+const isBudgetEnough60mph = fuelCost60mph <= fuelBudgetDollars;
+const isBudgetEnough75mph = fuelCost75mph <= fuelBudgetDollars;
