@@ -29,3 +29,8 @@ console.log("Result of number arithmetic chain:", numberResult); // Print the re
 const anyNumberGreaterThan25 =
   numOne > 25 || numTwo > 25 || numThree > 25 || numFour > 25;
 console.log("Is any number greater than 25:", anyNumberGreaterThan25); // Should print true if any number is greater than 25
+
+//part 2 pratctical math
+
+// Distance of the trip
+const tripDistanceMiles = 1500; // Total miles for the trip
