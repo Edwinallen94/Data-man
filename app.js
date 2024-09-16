@@ -47,3 +47,8 @@ const averageFuelCostPerGallon = 3; // Average cost of fuel per gallon
 const gallonsNeeded55mph = tripDistanceMiles / fuelEfficiency55mph;
 const gallonsNeeded60mph = tripDistanceMiles / fuelEfficiency60mph;
 const gallonsNeeded75mph = tripDistanceMiles / fuelEfficiency75mph;
+
+//Added the cost of fuel for each speed
+const fuelCost55mph = gallonsNeeded55mph * averageFuelCostPerGallon;
+const fuelCost60mph = gallonsNeeded60mph * averageFuelCostPerGallon;
+const fuelCost75mph = gallonsNeeded75mph * averageFuelCostPerGallon;
