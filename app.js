@@ -57,3 +57,8 @@ const fuelCost75mph = gallonsNeeded75mph * averageFuelCostPerGallon;
 const isBudgetEnough55mph = fuelCost55mph <= fuelBudgetDollars;
 const isBudgetEnough60mph = fuelCost60mph <= fuelBudgetDollars;
 const isBudgetEnough75mph = fuelCost75mph <= fuelBudgetDollars;
+
+// Calculate time required for the trip at each speed
+const travelTime55mph = tripDistanceMiles / 55; // Time in hours at 55 mph
+const travelTime60mph = tripDistanceMiles / 60; // Time in hours at 60 mph
+const travelTime75mph = tripDistanceMiles / 75; // Time in hours at 75 mph
