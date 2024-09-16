@@ -62,3 +62,20 @@ const isBudgetEnough75mph = fuelCost75mph <= fuelBudgetDollars;
 const travelTime55mph = tripDistanceMiles / 55; // Time in hours at 55 mph
 const travelTime60mph = tripDistanceMiles / 60; // Time in hours at 60 mph
 const travelTime75mph = tripDistanceMiles / 75; // Time in hours at 75 mph
+
+//console.logging each of the results. With a string attached to it and using the ${} to grab the variable
+console.log(`Gallons needed at 55 mph: ${gallonsNeeded55mph}`);
+console.log(`Gallons needed at 60 mph: ${gallonsNeeded60mph}`);
+console.log(`Gallons needed at 75 mph: ${gallonsNeeded75mph}`);
+
+console.log(`Fuel cost at 55 mph: $${fuelCost55mph}`);
+console.log(`Fuel cost at 60 mph: $${fuelCost60mph}`);
+console.log(`Fuel cost at 75 mph: $${fuelCost75mph}`);
+
+console.log(`Is the budget enough at 55 mph? ${isBudgetEnough55mph}`);
+console.log(`Is the budget enough at 60 mph? ${isBudgetEnough60mph}`);
+console.log(`Is the budget enough at 75 mph? ${isBudgetEnough75mph}`);
+
+console.log(`Travel time at 55 mph: ${travelTime55mph} hours`);
+console.log(`Travel time at 60 mph: ${travelTime60mph} hours`);
+console.log(`Travel time at 75 mph: ${travelTime75mph} hours`);
