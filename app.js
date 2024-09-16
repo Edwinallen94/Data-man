@@ -39,3 +39,6 @@ const tripDistanceMiles = 1500; // Total miles for the trip
 const fuelEfficiency55mph = 30; // Miles per gallon at 55 mph
 const fuelEfficiency60mph = 28; // Miles per gallon at 60 mph
 const fuelEfficiency75mph = 23; // Miles per gallon at 75 mph
+
+const fuelBudgetDollars = 175; // Total budget for fuel
+const averageFuelCostPerGallon = 3; // Average cost of fuel per gallon
