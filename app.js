@@ -34,3 +34,8 @@ console.log("Is any number greater than 25:", anyNumberGreaterThan25); // Should
 
 // Distance of the trip
 const tripDistanceMiles = 1500; // Total miles for the trip
+
+// Fuel efficiency and budget setup
+const fuelEfficiency55mph = 30; // Miles per gallon at 55 mph
+const fuelEfficiency60mph = 28; // Miles per gallon at 60 mph
+const fuelEfficiency75mph = 23; // Miles per gallon at 75 mph
